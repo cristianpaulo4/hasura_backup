@@ -54,8 +54,13 @@ class _FormsWidgetsState extends State<FormsWidgets> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  void initState() {
     _carregarDados();
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
     return Form(
       key: form_key,
       child: Column(

@@ -41,4 +41,10 @@ flutter:
  
   uses-material-design: true
 
+msix_config:
+  display_name: Hasura Backup
+  publisher_display_name: Hasura Backup
+  identity_name: com.senuntech
+  msix_version: 1.0.0.0
+  logo_path: assets/logo.png
 
